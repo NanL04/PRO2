@@ -16,7 +16,6 @@ public class NodoDoble {
     
     
     //constructor para cuando todavia no hay nodos
-
     public NodoDoble(String nombre, String direccion) {
         this.nombre = nombre;
         this.direccion = direccion;

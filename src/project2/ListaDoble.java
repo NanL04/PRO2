@@ -7,7 +7,8 @@ public class ListaDoble {
     public static int tamaño;
     
     // se crean los nodos
-
+    
+    // se crea el constructor de ListaDoble
     public ListaDoble() {
         first = null;
         last = null;
@@ -24,7 +25,7 @@ public class ListaDoble {
         }
     }
 
-    public void clear() {
+    public void clear() { // mrtodo para limpiar la lista
         while (!isEmpty()) {
             borrar(first);
 
@@ -61,7 +62,7 @@ public class ListaDoble {
         }
     }
 
-    //para retornar un contador que dice nonde esta el nodo en la lista
+    //para retornar un contador que dice donde esta el nodo en la lista
     public int index(NodoDoble b) {
         NodoDoble aux = first;
         int con = 0;
